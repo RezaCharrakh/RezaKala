@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #F6E3C5;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rezakalafinal.AdminPanelCL">
+   <children>
+      <Button layoutX="6.0" layoutY="362.0" mnemonicParsing="false" onMouseClicked="#MainMenuBTN" prefHeight="30.0" prefWidth="61.0" style="-fx-background-color: #A0D995;" text="Log out">
+         <font>
+            <Font name="MV Boli" size="12.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="76.0" prefHeight="127.0" prefWidth="448.0" text="RezaKala">
+         <font>
+            <Font name="MV Boli" size="60.0" />
+         </font>
+      </Label>
+      <Label layoutX="198.0" layoutY="127.0" text="Admin Panel">
+         <font>
+            <Font name="MV Boli" size="35.0" />
+         </font>
+      </Label>
+      <Button layoutX="173.0" layoutY="207.0" mnemonicParsing="false" onMouseClicked="#ProductRequestBTN" prefHeight="68.0" prefWidth="115.0" style="-fx-background-color: #4CACBC;" text="Product requests">
+         <font>
+            <Font name="MV Boli" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="308.0" layoutY="207.0" mnemonicParsing="false" onMouseClicked="#EditAdminInfoBTN" prefHeight="68.0" prefWidth="115.0" style="-fx-background-color: #6CC4A1;" text="Edit Info">
+         <font>
+            <Font name="MV Boli" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="440.0" layoutY="207.0" mnemonicParsing="false" onMouseClicked="#CustomerListBTN" prefHeight="68.0" prefWidth="115.0" style="-fx-background-color: #4CACBC;" text="Customers list">
+         <font>
+            <Font name="MV Boli" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="308.0" layoutY="286.0" mnemonicParsing="false" onMouseClicked="#DeleteSellerBTN" prefHeight="68.0" prefWidth="115.0" style="-fx-background-color: #4CACBC;" text="Delete Seller">
+         <font>
+            <Font name="MV Boli" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="440.0" layoutY="286.0" mnemonicParsing="false" onMouseClicked="#DeleteCustomerBTN" prefHeight="68.0" prefWidth="115.0" style="-fx-background-color: #6CC4A1;" text="Delete Customer">
+         <font>
+            <Font name="MV Boli" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="37.0" layoutY="207.0" mnemonicParsing="false" onMouseClicked="#ShowAdminInfoBTN" prefHeight="68.0" prefWidth="115.0" style="-fx-background-color: #6CC4A1;" text="Show Info">
+         <font>
+            <Font name="MV Boli" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="37.0" layoutY="286.0" mnemonicParsing="false" onMouseClicked="#SellerListBTN" prefHeight="68.0" prefWidth="115.0" style="-fx-background-color: #4CACBC;" text="Seller list">
+         <font>
+            <Font name="MV Boli" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="173.0" layoutY="286.0" mnemonicParsing="false" onMouseClicked="#SellerRequestsBTN" prefHeight="68.0" prefWidth="115.0" style="-fx-background-color: #6CC4A1;" text="Seller requests">
+         <font>
+            <Font name="MV Boli" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
